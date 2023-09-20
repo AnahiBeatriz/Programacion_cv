@@ -1,0 +1,70 @@
+ *{
+   box-sizing: border-box;
+  }
+  
+  .información {
+    text-align: justify;
+    padding: 15px;
+    color: rgb(97, 5, 80);
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .estudios{
+    background-color: rgb(244, 172, 244);
+    color: rgb(30, 5, 45);
+  }
+
+  section ol{
+    font-weight: bold;
+    text-align: justify;
+  }
+
+  section h2 {
+      text-align: center;
+      color: rgb(66, 4, 4);
+      font-weight: lighter;
+  }
+
+
+
+  section h3 {
+     border: 3px solid #1751bd;
+      text-align: center;
+      text-size-adjust: auto;
+      color: rgb(212, 25, 218);
+      background-color: rgb(112, 232, 232);
+  }
+
+  #fecha{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(153, 102, 153);
+    color: rgb(8, 2, 34);
+  }
+
+
+  #fuente {font-family: 'Roboto', sans-serif;
+  }
+
+  .imagen_1, .imagen_2, .imagen_3 {
+    width:20px;
+    height:20px;
+  }
+
+  #boton_idiomas, #boton_informatica {
+    border: 3px solid #5e0505;
+    font-size: 15px;
+    border-radius: 50px;
+    color: #5e0505;
+  }
+
+  #boton_primaria, #boton_secundaria, #boton_maestria {
+    border: 3px solid #d22222;
+    font-size: 15px;
+    border-radius: 50px;
+    color: #d22222;
+  }
+  
+  #parrafo, #parrafo_1, #parrafo_2 { display: none; 
+  }

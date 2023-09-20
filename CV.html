@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .img_rostro {
+       float: left;
+       width:200px;
+       height:200px;
+       border-radius:100px;
+    } 
+    @media only screen and (max-width: 600px){.img_rostro {
+      float: left;
+      width:100px;
+      height:100px;
+      border-radius:50px;} 
+    }
+  </style>
+  <style> 
+    #header {
+      font-family: 'Dancing Script', cursive;
+      text-align: center;
+      font-size: xx-large;
+      color: rgb(241, 118, 171);
+    }
+    @media only screen and (max-width: 600px){#header {
+      font-family: 'Dancing Script', cursive;
+      text-align: center;
+      font-size: medium;
+      color: rgb(241, 118, 171);}
+    }
+  </style>
+
+  <style>
+    section ul{
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      color: rgb(137, 26, 26);
+    }
+    @media only screen and (max-width: 600px){
+      section ul{
+      display: table;
+      justify-content: center;
+      gap: 40px;
+      color: rgb(137, 26, 26);
+      }
+    }
+  </style>
+ <link rel="stylesheet" type="text/css" href="CV.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+ <script type="text/JavaScript" src="CV.js"></script>
+
+ <title>Curriculum Vitae</title>
+ 
+</head>
+
+<body>
+    
+  <div id="header">
+   <header>
+     <!-- la idea era poner este link pero decidí recortar la imagen por motivos estéticos u.u ...
+     <img class="img-rostro" src="https://img.freepik.com/foto-gratis/ai-genero-concepto-humano_23-2150688465.jpg?size=626&ext=jpg&ga=GA1.1.1009715052.1694960497&semt=ais_ai_generated"/> -->
+            
+      <img class="img_rostro" src="imagenes/ai-rostro.jpg" alt="rostro"/>
+
+      <h1>   
+         Alba Mateada   
+       <br>
+         Estilista Profesional
+      </h1>
+         
+    </header>
+  </div>
+
+  <div id="fuente">
+   <br>
+
+    <section>
+      <ul>
+        <li><img class="imagen_1" src="imagenes/telefono.jpg" alt="telefono"/>  333-3678910</li>
+        <li><img class="imagen_2" src="imagenes/casa.jpg" alt="casa"/>  Av. Philosapiencia 1234</li>
+        <li><img class="imagen_3" src="imagenes/carta.jpg" alt="carta"/>  albama@jimeil </li>
+     </ul>
+   </section>
+
+
+    <div class="información">
+      <p>Mi gran pasión es el arte en todas sus manifestaciones, desde pequeña he comprendido que lo artístico llena el corazón de los seres 
+        humanos promoviendo en ellos valores positivos y gran vitalidad para enfrentar la vida a tope. Esta pasión me ha llevado a buscar mi propio
+        arte, aquel que me hiciera trabajar con entusiasmo y sonreir cada mañana, eso es para mi el estilismo, un arte de buscar la armonía singular 
+        que embellece a cada individuo permitiéndole expresar a través de su imagen un pedazo de su corazón. Y entendiendo la importancia de esa 
+        tarea, la he convertido en mi profesión.
+      </p>
+      <br>
+    </div>
+
+    <div class="estudios">
+          
+      <section>
+        <br>
+        <h2>El camino hacia mi amada profesión</h2>
+        <ol>
+         <li><button type="button" id="boton_primaria" onclick="primaria()">Primeros pasos</button>
+            <p id="parrafo">Cursé los estudios primarios en la "Escuela de la Paz Social", Calle Luxlu 2345, Argentilandia</p></li>
+            <br>
+         <li><button type="button" id="boton_secundaria" onclick="secundaria()">Orientando mi vocación</button>
+            <p id="parrafo_1">Cursé los estudios secundarios en la "Escuela Fundación", Calle Luxlu 2346, Argentilandia, con orientación en artes humanísticas</p></li>
+             <br>
+         <li><button type="button" id="boton_maestria" onclick="maestria()">Desarrollando mis objetivos académicos</button>
+            <p id="parrafo_2">Cursé mi carrera en estilismo en el "Instituto de Formación Superior en Estilismo y Tendencias de la Moda: 'Doña Marixiña' ", Calle Pepegrillo 4567, Argentilandia</p></li>
+        </ol>
+      </section>
+          
+
+      <br>
+
+          
+      <section>
+        <h3>Habilidades extras</h3>
+            
+        <ul>
+          <li><button type="button" id="boton_idiomas" onclick="idiomas()">Idiomas</button></li>
+          <li><button type="button" id="boton_informatica" onclick="informatica()">Informática</button></li>
+        </ul>
+      </section>
+      <br>
+   </div>
+
+
+    <div id="fecha">
+      <footer>
+        <h4>Septiembre 2023</h4>
+      </footer>
+    </div>
+ </div>
+</body>
+</html>
